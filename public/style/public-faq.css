@@ -1,0 +1,194 @@
+/* basic setup */
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:700);
+
+/* the styles for the wrapper containing main content */
+
+#wrapper {
+    height: 100%;
+    background-color:  #111;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu',Sans-serif;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.gridItem {
+    font-size: 20px;
+    text-align: center;
+}
+
+#item-1 {
+    height: 100%;
+    width: 160px;
+    position: absolute;
+    text-align: left;
+}
+
+#item-1 a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    color: #818181;
+    display: block;
+}
+
+#item1 a:hover {
+    color: #f1f1f1;
+    text-decoration: none;
+}
+/* the styles for the main content */
+
+#item-2{
+    background-color: white;
+    text-align: left;
+    margin-left: 160px;
+}
+
+#item-2 h2{
+    margin-left: 1em;
+    color: #2B08A1;
+    font-size: 45px;
+    border-bottom: 3px solid #D9D6D3;
+    margin-right: 22px;
+    margin-bottom: 1em;
+}
+
+/* the styles for the collapsible div */
+
+.collapsible {
+    background-color: white;
+    color: #2B08A1;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    border-bottom:1px solid #D9D6D3;
+}
+
+.active, .collapsible:hover {
+    background-color: whitesmoke;
+}
+
+.collapsible:after {
+    content: '\002B';
+    color: #2B08A1;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.myContent {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: whitesmoke;
+    color: #918F8D;
+    font-size: 15px;
+}
+
+@media screen and (max-height: 450px) {
+    /* the styles for the wrapper containing main content */
+
+    #wrapper {
+        height: 100%;
+        background-color:  #111;
+        margin: 0;
+        padding: 0;
+        font-family: 'Ubuntu',Sans-serif;
+    }
+
+    .gridContainer {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .gridItem {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #item-1 {
+        height: 100%;
+        width: 160px;
+        position: absolute;
+        text-align: left;
+    }
+
+    #item-1 a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        color: #818181;
+        display: block;
+    }
+
+    #item1 a:hover {
+        color: #f1f1f1;
+        text-decoration: none;
+    }
+    /* the styles for the main content */
+
+    #item-2{
+        background-color: white;
+        text-align: left;
+        margin-left: 160px;
+    }
+
+    #item-2 h2{
+        margin-left: 1em;
+        color: #2B08A1;
+        font-size: 45px;
+        border-bottom: 3px solid #D9D6D3;
+        margin-right: 22px;
+        margin-bottom: 1em;
+    }
+
+    /* the styles for the collapsible div */
+
+    .collapsible {
+        background-color: white;
+        color: #2B08A1;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        border-bottom:1px solid #D9D6D3;
+    }
+
+    .active, .collapsible:hover {
+        background-color: whitesmoke;
+    }
+
+    .collapsible:after {
+        content: '\002B';
+        color: #2B08A1;
+        float: right;
+        margin-left: 5px;
+    }
+
+    .active:after {
+        content: "\2212";
+    }
+
+    .myContent {
+        padding: 0 18px;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+        background-color: whitesmoke;
+        color: #918F8D;
+        font-size: 15px;
+    }
+}

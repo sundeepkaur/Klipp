@@ -1,0 +1,26 @@
+body{
+    overflow: no-display;
+}
+.project-content .img-thumbnail{
+    padding: 0;
+}
+.project-content {
+    margin-top: 50px;
+}
+.project-content .text-center{
+    text-align: left;
+}
+.project-content #related-flyer{
+    /*background-color: black;*/
+}
+button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    height: 100%;
+}
+@media (min-width: 1200px){
+    .project-content .col-lg-3 {
+        width: 33.333333%;
+    }
+}

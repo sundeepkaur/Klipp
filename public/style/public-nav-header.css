@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:700);
+.header {
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+.header nav{
+    border-bottom: none;
+    background-color: #000000;
+}
+.navbar-brand {
+    padding: 0px;
+}
+.navbar-brand>img {
+    height: 100%;
+    width: auto;
+
+}
+.header .navbar-brand {
+    height: 80px;
+    padding: 2px;
+}
+
+.header .nav >li >a {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #717070;
+}
+.header .navbar-toggle {
+    padding: 10px;
+    margin: 25px 15px 25px 0;
+}
+.header .navbar{
+    margin-bottom: 0;
+}
+

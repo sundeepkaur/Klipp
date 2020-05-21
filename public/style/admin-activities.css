@@ -1,0 +1,28 @@
+/* basic setup */
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:700);
+
+/* the styles for the wrapper containing main content */
+
+.contact{
+    padding: 4%;
+    height: 100%;
+    color: darkblue;
+}
+ #btn1, #btn2, #btn3 {
+     background-color: #b0d4f1;
+     width: 100%;
+     height: 10%;
+     color: darkblue;
+ }
+@media only screen and (max-width: 768px) {
+    .contact{
+        padding: 4%;
+        height: 100%;
+        color: darkblue;
+    }
+    #btn1, #btn2, #btn3 {
+        background-color: lightpink;
+        width: 100%;
+        height: 10%;
+    }
+}

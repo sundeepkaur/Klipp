@@ -1,0 +1,96 @@
+/* basic setup */
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:700);
+
+/* the styles for the wrapper containing main content */
+
+.contact{
+    padding: 4%;
+    height: 100%;
+    color: darkblue;
+}
+
+#frstCol{
+    background: lightpink;
+}
+.col-md-3{
+    padding: 4%;
+}
+.contact-info{
+    margin-top:10%;
+}
+.contact-info img{
+    margin-bottom: 10%;
+}
+.contact-info h2{
+    margin-bottom: 10%;
+}
+.col-md-9{
+    background: #fff;
+}
+.contact-form label{
+    font-weight:600;
+    margin-bottom: 2em;
+}
+
+.contact-form input{
+    margin-bottom: 2em;
+}
+.contact-form button{
+    background: #25274d;
+    color: #fff;
+    font-weight: 600;
+    width: 25%;
+    height: 6%;
+    margin-top: 1em;
+}
+.contact-form button:focus{
+    box-shadow:none;
+}
+
+@media only screen and (max-width: 768px) {
+    /* the styles for the wrapper containing main content */
+
+    .contact{
+        padding: 4%;
+        height: 100%;
+        color: darkblue;
+    }
+
+    #frstCol{
+        background: lightpink;
+    }
+    .col-md-3{
+        padding: 4%;
+    }
+    .contact-info{
+        margin-top:10%;
+    }
+    .contact-info img{
+        margin-bottom: 10%;
+    }
+    .contact-info h2{
+        margin-bottom: 10%;
+    }
+    .col-md-9{
+        background: #fff;
+    }
+    .contact-form label{
+        font-weight:600;
+        margin-bottom: 2em;
+    }
+
+    .contact-form input{
+        margin-bottom: 2em;
+    }
+    .contact-form button{
+        background: #25274d;
+        color: #fff;
+        font-weight: 600;
+        width: 25%;
+        height: 6%;
+        margin-top: 1em;
+    }
+    .contact-form button:focus{
+        box-shadow:none;
+    }
+}

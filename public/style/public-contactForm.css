@@ -1,0 +1,36 @@
+/* basic setup */
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:700);
+
+/* the styles for the wrapper containing main content */
+
+#myWrapper {
+    background-color: white;
+    font-family: sans-serif;
+    padding-top: 2em;
+    padding-left: 3.5em;
+    font-size: 28px;
+    color:#81A666;
+    height: 12em;
+    width: 100%;
+}
+
+#result{
+    background-color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    #myWrapper {
+        background-color: white;
+        font-family: sans-serif;
+        padding-top: 2em;
+        padding-left: 3.5em;
+        font-size: 28px;
+        color:#81A666;
+        height: 12em;
+        width: 100%;
+    }
+
+    #result{
+        background-color: white;
+    }
+}
