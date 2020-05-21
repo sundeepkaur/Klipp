@@ -81,11 +81,11 @@ The primary purpose of an about us page is to inform the reader about the store 
 #### Video
 This page displays a video which gives overview about the store and all its products
 
-Sections Developed By:
-* Anusha - Shopping List, Search Flyer, Browse Flyer
-* Husain - Location, Favourites, Signup, Signin, Log Out, Website Deployment
-* Sundeep - Client Login, Client interface - Product add : Product delete : Product Modify , Contact Us, FAQ
-* Anjali  - About us, how to use
+Sections Developed By Sundeep:
+* Shopping List, Search Flyer, Browse Flyer
+* Location, Favourites, Signup, Signin, Log Out, Website Deployment
+* Client Login, Client interface - Product add : Product delete : Product Modify , Contact Us, FAQ
+* About us, how to use
 
  ### Database Structure:
  
